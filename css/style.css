@@ -9,12 +9,15 @@ body{
 
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .container{
     background-color: #ffffff;
     padding: 30px;
     width: 870px;
+    margin-top: 21px;
+    border-radius: 5px;
 }
 .container-title{
     margin-top: 3px;
@@ -23,10 +26,11 @@ main{
 }
 hr{
     border: 1px solid #D1D1D1;
+    margin-bottom: 20px;
 }
 
 
-/* TOP PLAYERS */
+/*-----------TOP PLAYERS-----------*/
 .top-players{
     margin-bottom: 22px;
 }
@@ -51,3 +55,47 @@ hr{
     font-size: 18px;
     margin-left: 16px;
 }
+
+/*-----------TOP BLOGS-----------*/
+.top-blogs{
+
+}
+.blogs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 15px;
+
+}
+.blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.blog-thumbile{
+
+}
+.blog-thumbnile img{
+    width: 177px;
+    height: 117px;
+    margin-right: 16px;
+
+}
+.blog-info{
+    width: 200px;
+
+}
+.blog-title{
+ font-size: 20px;
+}
+.blog-author{
+    font-size: 16px;
+    color: #9F9F9F;
+
+}
+.blog-author a{
+    text-decoration: none;
+    color: #562EFF;
+
+}
+
