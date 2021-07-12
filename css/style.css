@@ -3,7 +3,6 @@
 ------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
 
-
 /*-----------------------
         BASE & UTILITIES
 ------------------------*/
@@ -60,22 +59,18 @@ hr{
 .nav-left{
     display: flex;
     align-items: center;
-
 }
 .nav-right{
     display: flex;
     align-items: center;
 }
-
 .nav-link{
     text-decoration: none;
     color: #fff;
     font-size: 16px;
     font-weight: 300;
     margin-right: 36px;
-
 }
-
 
 /*-----------------------
          TOP PLAYERS
@@ -87,17 +82,14 @@ hr{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 30px;
-
 }
 .player{
     display: flex;
     align-items: center;
-
 }
 .player img{
     width: 56px;
     height: 56px;
-
 }
 .player-name{
     color: #000000;
@@ -115,26 +107,19 @@ hr{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 15px;
-
 }
 .blog{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
-}
-.blog-thumbile{
-
 }
 .blog-thumbnile img{
     width: 177px;
     height: 117px;
     margin-right: 16px;
-
 }
 .blog-info{
     width: 200px;
-
 }
 .blog-title{
  font-size: 20px;
@@ -142,13 +127,12 @@ hr{
 .blog-author{
     font-size: 16px;
     color: #9F9F9F;
-
 }
 .blog-author a{
     text-decoration: none;
     color: #562EFF;
-
 }
+
 /*-----------------------
          COURSES
 ------------------------*/
@@ -156,7 +140,6 @@ hr{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 23px;
-
 }
 .course{
     padding: 15px 17px 20px;
@@ -165,30 +148,23 @@ hr{
 }
 .course-banner{
     width: 100%;
-
 }
 .course-banner img{
     width: 100%;
     height: 124px; 
 }
-.course-details{
-
-}
 .course-title{
     font-size: 20px;
     color:#1E1E1E;
-
 }
 .course-author{
     font-size: 15px;
     color: #ED6B4F;
-
 }
 .course-info{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 .course-info span{
     font-size: 14px;
@@ -211,7 +187,6 @@ hr{
     color: #FF4A60;
     padding: 4px 8px;
     border-radius: 14px;
-
 }
 
 
