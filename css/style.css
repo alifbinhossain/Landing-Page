@@ -1,10 +1,17 @@
-/* FONTS */
+/*-----------------------
+         FONTS
+------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap');
 
-/* BASE STYLE & UTILITIES */
+
+/*-----------------------
+        BASE & UTILITIES
+------------------------*/
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
+    padding: 0;
 }
 
 main{
@@ -29,8 +36,50 @@ hr{
     margin-bottom: 20px;
 }
 
+/*-----------------------
+         HEADER
+------------------------*/
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #562EFF;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+.logo{
+    width: 40px;
+    height: 50px;
+    margin-right: 15px;
+}
+.company-name{
+    font-size: 24px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
 
-/*-----------TOP PLAYERS-----------*/
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: 36px;
+
+}
+
+
+/*-----------------------
+         TOP PLAYERS
+------------------------*/
 .top-players{
     margin-bottom: 22px;
 }
@@ -56,7 +105,9 @@ hr{
     margin-left: 16px;
 }
 
-/*-----------TOP BLOGS-----------*/
+/*-----------------------
+         TOP BLOGS
+------------------------*/
 .top-blogs{
 
 }
@@ -98,4 +149,69 @@ hr{
     color: #562EFF;
 
 }
+/*-----------------------
+         COURSES
+------------------------*/
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 23px;
+
+}
+.course{
+    padding: 15px 17px 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.05);
+    border-radius: 13px;
+}
+.course-banner{
+    width: 100%;
+
+}
+.course-banner img{
+    width: 100%;
+    height: 124px; 
+}
+.course-details{
+
+}
+.course-title{
+    font-size: 20px;
+    color:#1E1E1E;
+
+}
+.course-author{
+    font-size: 15px;
+    color: #ED6B4F;
+
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.course-info span{
+    font-size: 14px;
+    color: #A2A2A2;
+}
+.course-rating{
+
+}
+.fa-star{
+    font-size: 12px;
+}
+.filled{
+   color: #FFC014;;
+}
+.empty{
+   color:#AEAEAE;
+}
+.course-duration{
+    background-color:#FFE4E8;
+    color: #FF4A60;
+    padding: 4px 8px;
+    border-radius: 14px;
+
+}
+
 
